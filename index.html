@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprenda Já Educação - Cursos e Treinamentos</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- HEADER / NAVBAR -->
+    <header class="navbar">
+        <div class="container">
+            <div class="navbar-content">
+                <!-- LOGO -->
+                <div class="logo-section">
+                    <svg class="logo" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                        <!-- Livro aberto -->
+                        <path d="M 30 20 L 50 20 L 50 80 L 30 70 Z" fill="#1e3a8a" stroke="#fbbf24" stroke-width="2"/>
+                        <path d="M 70 20 L 50 20 L 50 80 L 70 70 Z" fill="#3b82f6" stroke="#fbbf24" stroke-width="2"/>
+                        
+                        <!-- Linhas do livro -->
+                        <line x1="35" y1="35" x2="48" y2="35" stroke="#fbbf24" stroke-width="1.5"/>
+                        <line x1="35" y1="45" x2="48" y2="45" stroke="#fbbf24" stroke-width="1.5"/>
+                        <line x1="35" y1="55" x2="48" y2="55" stroke="#fbbf24" stroke-width="1.5"/>
+                        
+                        <line x1="52" y1="35" x2="65" y2="35" stroke="#fbbf24" stroke-width="1.5"/>
+                        <line x1="52" y1="45" x2="65" y2="45" stroke="#fbbf24" stroke-width="1.5"/>
+                        <line x1="52" y1="55" x2="65" y2="55" stroke="#fbbf24" stroke-width="1.5"/>
+                        
+                        <!-- Moldura hexagonal (técnica) -->
+                        <polygon points="50,10 65,18 65,34 50,42 35,34 35,18" fill="none" stroke="#fbbf24" stroke-width="1.5"/>
+                    </svg>
+                    <h1 class="logo-text">Aprenda Já<br><span>Educação</span></h1>
+                </div>
+
+                <!-- NAVIGATION MENU -->
+                <nav class="nav-menu">
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#cursos">Cursos</a></li>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </nav>
+
+                <!-- BOTÃO CTA -->
+                <button class="btn-cta">Inscreva-se Agora</button>
+
+                <!-- MENU HAMBURGUER (MOBILE) -->
+                <div class="menu-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2>Transforme seu Futuro com Educação Técnica</h2>
+            <p>Cursos profissionais que preparam você para o mercado de trabalho</p>
+            <button class="btn-primary">Explore Nossos Cursos</button>
+        </div>
+        <div class="hero-image">
+            <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                <!-- Estudante com livro -->
+                <circle cx="100" cy="50" r="15" fill="#3b82f6"/>
+                <rect x="85" y="70" width="30" height="40" fill="#3b82f6" rx="3"/>
+                <rect x="75" y="75" width="50" height="35" fill="#fbbf24" rx="2"/>
+                <rect x="80" y="80" width="10" height="25" stroke="#1e3a8a" stroke-width="1" fill="none"/>
+                <rect x="95" y="80" width="10" height="25" stroke="#1e3a8a" stroke-width="1" fill="none"/>
+                <rect x="110" y="80" width="10" height="25" stroke="#1e3a8a" stroke-width="1" fill="none"/>
+                <line x1="80" y1="115" x2="70" y2="150" stroke="#3b82f6" stroke-width="3"/>
+                <line x1="120" y1="115" x2="130" y2="150" stroke="#3b82f6" stroke-width="3"/>
+                <line x1="75" y1="150" x2="65" y2="180" stroke="#1e3a8a" stroke-width="3"/>
+                <line x1="125" y1="150" x2="135" y2="180" stroke="#1e3a8a" stroke-width="3"/>
+            </svg>
+        </div>
+    </section>
+
+    <!-- SEÇÃO DE CURSOS -->
+    <section id="cursos" class="cursos">
+        <div class="container">
+            <h2 class="section-title">Nossos Cursos Principais</h2>
+            <p class="section-subtitle">Formações técnicas que geram oportunidades reais</p>
+
+            <div class="cursos-grid">
+                <!-- CARD 1 -->
+                <div class="curso-card">
+                    <div class="curso-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Desenvolvimento Web</h3>
+                    <p>Aprenda HTML, CSS, JavaScript e construa aplicações web modernas</p>
+                    <ul class="modulos-list">
+                        <li>✓ Frontend Responsivo</li>
+                        <li>✓ Backend com Node.js</li>
+                        <li>✓ Banco de Dados</li>
+                    </ul>
+                    <button class="btn-secondary">Saiba Mais</button>
+                </div>
+
+                <!-- CARD 2 -->
+                <div class="curso-card">
+                    <div class="curso-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3>Automação Industrial</h3>
+                    <p>Sistemas de automação e controle para indústria 4.0</p>
+                    <ul class="modulos-list">
+                        <li>✓ PLCs e Controladores</li>
+                        <li>✓ Robótica Aplicada</li>
+                        <li>✓ Instrumentação</li>
+                    </ul>
+                    <button class="btn-secondary">Saiba Mais</button>
+                </div>
+
+                <!-- CARD 3 -->
+                <div class="curso-card">
+                    <div class="curso-icon">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h3>Eletrotécnica</h3>
+                    <p>Fundamentos e aplicações práticas de eletricidade e eletrônica</p>
+                    <ul class="modulos-list">
+                        <li>✓ Circuitos Elétricos</li>
+                        <li>✓ Motores e Geradores</li>
+                        <li>✓ Instalações Prediais</li>
+                    </ul>
+                    <button class="btn-secondary">Saiba Mais</button>
+                </div>
+
+                <!-- CARD 4 -->
+                <div class="curso-card">
+                    <div class="curso-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3>Administração de Dados</h3>
+                    <p>Gerenciar e otimizar bancos de dados para empresas</p>
+                    <ul class="modulos-list">
+                        <li>✓ SQL Avançado</li>
+                        <li>✓ Segurança de Dados</li>
+                        <li>✓ Big Data</li>
+                    </ul>
+                    <button class="btn-secondary">Saiba Mais</button>
+                </div>
+
+                <!-- CARD 5 -->
+                <div class="curso-card">
+                    <div class="curso-icon">
+                        <i class="fas fa-network-wired"></i>
+                    </div>
+                    <h3>Redes de Computadores</h3>
+                    <p>Infraestrutura de TI, segurança e administração de redes</p>
+                    <ul class="modulos-list">
+                        <li>✓ Protocolos de Rede</li>
+                        <li>✓ Segurança Cibernética</li>
+                        <li>✓ Servidores Linux</li>
+                    </ul>
+                    <button class="btn-secondary">Saiba Mais</button>
+                </div>
+
+                <!-- CARD 6 -->
+                <div class="curso-card">
+                    <div class="curso-icon">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <h3>Manutenção Industrial</h3>
+                    <p>Manutenção preventiva e corretiva de máquinas e equipamentos</p>
+                    <ul class="modulos-list">
+                        <li>✓ Mecânica Aplicada</li>
+                        <li>✓ Lubrificação e Limpeza</li>
+                        <li>✓ Diagnóstico de Falhas</li>
+                    </ul>
+                    <button class="btn-secondary">Saiba Mais</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SEÇÃO SOBRE -->
+    <section id="sobre" class="sobre">
+        <div class="container">
+            <div class="sobre-grid">
+                <div class="sobre-content">
+                    <h2>Por que Escolher a Aprenda Já?</h2>
+                    <p>Com mais de 10 anos de experiência em educação técnica, oferecemos formações práticas e inovadoras que conectam você ao mercado de trabalho.</p>
+                    
+                    <div class="beneficios">
+                        <div class="beneficio">
+                            <i class="fas fa-check-circle"></i>
+                            <h4>Professores Experientes</h4>
+                            <p>Profissionais atuantes na indústria</p>
+                        </div>
+                        <div class="beneficio">
+                            <i class="fas fa-check-circle"></i>
+                            <h4>Laboratórios Equipados</h4>
+                            <p>Infraestrutura de última geração</p>
+                        </div>
+                        <div class="beneficio">
+                            <i class="fas fa-check-circle"></i>
+                            <h4>Certificação Profissional</h4>
+                            <p>Reconhecida no mercado</p>
+                        </div>
+                        <div class="beneficio">
+                            <i class="fas fa-check-circle"></i>
+                            <h4>Colocação Profissional</h4>
+                            <p>Auxílio na inserção no mercado</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="sobre-image">
+                    <svg viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+                        <!-- Prédio da escola -->
+                        <rect x="50" y="80" width="200" height="180" fill="#3b82f6" stroke="#1e3a8a" stroke-width="2"/>
+                        
+                        <!-- Telhado -->
+                        <polygon points="50,80 150,20 250,80" fill="#1e3a8a" stroke="#fbbf24" stroke-width="2"/>
+                        
+                        <!-- Porta -->
+                        <rect x="130" y="200" width="40" height="60" fill="#8b5a3c" stroke="#1e3a8a" stroke-width="1"/>
+                        <circle cx="168" cy="230" r="3" fill="#fbbf24"/>
+                        
+                        <!-- Janelas -->
+                        <rect x="70" y="100" width="25" height="25" fill="#87ceeb"/>
+                        <line x1="82.5" y1="100" x2="82.5" y2="125" stroke="#1e3a8a" stroke-width="1"/>
+                        <line x1="70" y1="112.5" x2="95" y2="112.5" stroke="#1e3a8a" stroke-width="1"/>
+                        
+                        <rect x="110" y="100" width="25" height="25" fill="#87ceeb"/>
+                        <line x1="122.5" y1="100" x2="122.5" y2="125" stroke="#1e3a8a" stroke-width="1"/>
+                        <line x1="110" y1="112.5" x2="135" y2="112.5" stroke="#1e3a8a" stroke-width="1"/>
+                        
+                        <rect x="165" y="100" width="25" height="25" fill="#87ceeb"/>
+                        <line x1="177.5" y1="100" x2="177.5" y2="125" stroke="#1e3a8a" stroke-width="1"/>
+                        <line x1="165" y1="112.5" x2="190" y2="112.5" stroke="#1e3a8a" stroke-width="1"/>
+                        
+                        <rect x="205" y="100" width="25" height="25" fill="#87ceeb"/>
+                        <line x1="217.5" y1="100" x2="217.5" y2="125" stroke="#1e3a8a" stroke-width="1"/>
+                        <line x1="205" y1="112.5" x2="230" y2="112.5" stroke="#1e3a8a" stroke-width="1"/>
+                        
+                        <!-- Mais janelas -->
+                        <rect x="70" y="150" width="25" height="25" fill="#87ceeb"/>
+                        <rect x="110" y="150" width="25" height="25" fill="#87ceeb"/>
+                        <rect x="165" y="150" width="25" height="25" fill="#87ceeb"/>
+                        <rect x="205" y="150" width="25" height="25" fill="#87ceeb"/>
+                        
+                        <!-- Bandeira -->
+                        <rect x="147" y="15" width="6" height="30" fill="#8b5a3c"/>
+                        <polygon points="153,20 153,35 175,27.5" fill="#fbbf24"/>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SEÇÃO ESTATÍSTICAS -->
+    <section class="stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <h3>15,000+</h3>
+                    <p>Alunos Formados</p>
+                </div>
+                <div class="stat-card">
+                    <h3>50+</h3>
+                    <p>Cursos Disponíveis</p>
+                </div>
+                <div class="stat-card">
+                    <h3>98%</h3>
+                    <p>Taxa de Empregabilidade</p>
+                </div>
+                <div class="stat-card">
+                    <h3>25+</h3>
+                    <p>Anos de Experiência</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SEÇÃO DE CONTATO -->
+    <section id="contato" class="contato">
+        <div class="container">
+            <h2 class="section-title">Entre em Contato</h2>
+            <p class="section-subtitle">Tire suas dúvidas e conheça melhor nossa instituição</p>
+
+            <div class="contato-grid">
+                <div class="contato-form">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" placeholder="Seu Nome" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Seu E-mail" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" placeholder="Seu Telefone" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Sua Mensagem" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn-primary">Enviar Mensagem</button>
+                    </form>
+                </div>
+
+                <div class="contato-info">
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Endereço</h4>
+                            <p>Rua da Educação, 123 - Centro<br>São Paulo, SP - 01234-567</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Telefone</h4>
+                            <p>(11) 3456-7890<br>(11) 98765-4321</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>E-mail</h4>
+                            <p>contato@aprendaja.com.br<br>suporte@aprendaja.com.br</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h4>Horário de Funcionamento</h4>
+                            <p>Seg-Sex: 08:00 - 22:00<br>Sábado: 08:00 - 18:00</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Aprenda Já Educação</h4>
+                    <p>Formando profissionais técnicos para o futuro</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#cursos">Cursos</a></li>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Cursos Populares</h4>
+                    <ul>
+                        <li><a href="#">Desenvolvimento Web</a></li>
+                        <li><a href="#">Automação Industrial</a></li>
+                        <li><a href="#">Eletrotécnica</a></li>
+                        <li><a href="#">Redes de Computadores</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Aprenda Já Educação. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
